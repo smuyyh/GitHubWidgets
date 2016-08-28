@@ -27,6 +27,7 @@ Copy and paste this code in your HTML body, replacing “data-repo” with your 
 <div class="github-widget" data-username="smuyyh"></div>
 <script type="text/javascript" src="https://rawgit.com/smuyyh/GitHubWidgets/master/js/github_user_widget_en.js"></script>
 
-<!--js文件真实地址是以raw.githubusercontent.com开头，raw.githubusercontent.com在Response中设置了X-Content-Type-Options:nosniff ，浏览器强制检查资源的MIME。解决方法就是将js链接中的raw.githubusercontent.com换成rawgit.com。  -->
+<!--js文件真实地址是以raw.githubusercontent.com开头，raw.githubusercontent.com在Response中设置了X-Content-Type-Options:nosniff ，
+浏览器强制检查资源的MIME。解决方法就是将js链接中的raw.githubusercontent.com换成rawgit.com。  -->
 ```
 ![csdn](https://github.com/smuyyh/GitHubWidgets/blob/master/screenshot/csdn_widget_1.png?raw=true)
