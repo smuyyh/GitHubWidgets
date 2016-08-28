@@ -25,20 +25,24 @@ Copy and paste this code in your HTML body, replacing “data-repo” with your 
 
 - Activity Widget
 
-Copy and paste this code in your HTML body, replacing “username” with your GitHub username
+Copy and paste link in your HTML head, and div/script in your HTML body, replacing “username” with your GitHub username
 ```xml
-<link href="../css/github_widget_activity.css" rel="stylesheet">
+<head>
+    <link href="../css/github_widget_activity.css" rel="stylesheet">
+</head>
 
-<div id="widget-container" style="width:600px"></div>
-<script src="../js/jquery-1.7.1.min.js"></script>
-<script src="../js/github_widget_activity.js"></script>
-<script>
-  $(function(){
-    $('#widget-container').activity({
-      username: 'smuyyh'
-    });
-  });
-</script>
+<body>
+    <div id="widget-container" style="width:600px"></div>
+    <script src="../js/jquery-1.7.1.min.js"></script>
+    <script src="../js/github_widget_activity.js"></script>
+    <script>
+      $(function(){
+        $('#widget-container').activity({
+          username: 'smuyyh'
+        });
+      });
+    </script>
+</body>
 ```
 
 ## 为博客添加GitHub挂件（以CSDN博客为例）
