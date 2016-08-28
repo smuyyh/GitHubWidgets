@@ -1,6 +1,5 @@
 # GitHubWidgets
 GitHub html widget, include User Widget and Repo Widget.
-
 ![user](https://github.com/smuyyh/GitHubWidgets/blob/master/screenshot/github_user_1.png?raw=true)
 ![repo](https://github.com/smuyyh/GitHubWidgets/blob/master/screenshot/github_repo_1.png?raw=true)
 ![activity](https://github.com/smuyyh/GitHubWidgets/blob/master/screenshot/github_activity_1.png?raw=true)
@@ -13,6 +12,7 @@ Copy and paste this code in your HTML body, replacing “data-username” with y
 <div class="github-widget" data-username="smuyyh"></div>
 <script src="../js/github_user_widget_en.js"></script>
 ```
+
 - Repo Widget
 
 Copy and paste this code in your HTML body, replacing “data-repo” with your GitHub username/reponame
@@ -20,6 +20,24 @@ Copy and paste this code in your HTML body, replacing “data-repo” with your 
 <script type="text/javascript" src="../js/jquery-1.7.1.min.js"></script>
 <script type="text/javascript" src="../js/github_repo_widget_en.js"></script>
 <div class="github-widget-repo" data-repo="smuyyh/SprintNBA" style="width:500px"></div>
+```
+
+- Activity Widget
+
+Copy and paste this code in your HTML body, replacing “username” with your GitHub username
+```xml
+<link href="../css/github_widget_activity.css" rel="stylesheet">
+
+<div id="widget-container" style="width:600px"></div>
+<script src="../js/jquery-1.7.1.min.js"></script>
+<script src="../js/github_widget_activity.js"></script>
+<script>
+  $(function(){
+    $('#widget-container').activity({
+      username: 'smuyyh'
+    });
+  });
+</script>
 ```
 
 ## 为博客添加GitHub挂件（以CSDN博客为例）
