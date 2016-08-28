@@ -29,4 +29,4 @@ Copy and paste this code in your HTML body, replacing “data-repo” with your 
 
 <!--js文件真实地址是以raw.githubusercontent.com开头，raw.githubusercontent.com在Response中设置了X-Content-Type-Options:nosniff ，浏览器强制检查资源的MIME。解决方法就是将js链接中的raw.githubusercontent.com换成rawgit.com。  -->
 ```
-![csdn](https://github.com/smuyyh/GitHubWidgets/blob/master/screenshot/csdn_widget.png?raw=true)
+![csdn](https://github.com/smuyyh/GitHubWidgets/blob/master/screenshot/csdn_widget_1.png?raw=true)
