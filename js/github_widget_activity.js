@@ -48,7 +48,7 @@
           '<div class="activity-head"></div>'+
           '<ul class="activity-body"></ul>'+
           '<div class="activity-foot">'+
-            '<a href="">Powered by smuyyh</a>'+
+            '<a href="https://github.com/smuyyh">Powered by smuyyh</a>'+
           '</div>'+
         '</div>';
       },
