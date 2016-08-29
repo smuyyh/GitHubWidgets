@@ -22,7 +22,7 @@ Copy and paste this code in your HTML body, replacing “data-repo” with your 
 <script type="text/javascript" src="../js/github_repo_widget_en.js"></script>
 <div class="github-widget-repo" data-repo="smuyyh/SprintNBA" style="width:600px"></div>
 ```
-Or
+or
 ```xml
 <head>
     <link type="text/css" rel="stylesheet" href="../css/github_repo_widget_2.css"/>
