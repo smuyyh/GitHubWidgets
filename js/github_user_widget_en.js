@@ -57,7 +57,7 @@ function lastPushedDay(a) {
     return Math.floor((b - c) / 864E5)
 }
 function updateUserDetails(a, b) {
-    appendToWidget(b + " .gh-widget-personal-details", "div", "full-name", a.name);
+    appendToWidget(b + " .gh-widget-personal-details", "div", "full-name", '<a class="gh-widget-link" target="new" href="' + a.html_url + '">'+a.name+'</a>');
     a.bio && appendToWidget(b + " .gh-widget-personal-details", "div", "bio", a.bio);
     a.location && appendToWidget(b + " .gh-widget-personal-details", "div", "location", '<img src="http://www.iconres.com/android/res/material_icons/external-assets/v4/icons/png/ic_location_on_black_48dp.png" width=20 height=20 />'+a.location);
 	a.email && appendToWidget(b + " .gh-widget-personal-details", "div", "email", '<img src="http://www.iconres.com/android/res/material_icons/external-assets/v4/icons/png/ic_email_black_48dp.png" width=20 height=20 />'+a.email);
@@ -65,7 +65,7 @@ function updateUserDetails(a, b) {
     appendToWidget(b + " .gh-widget-stats", "div", "gh-widget-item", '<div class="count">' + a.following + '</div><div class="stat-name">Following</div>');
     appendToWidget(b + " .gh-widget-stats", "div", "gh-widget-item", '<div class="count">' + a.public_repos + '</div><div class="stat-name">Repositories</div>');
     appendToWidget(b + " .gh-widget-photo", "span", "", '<img src="' + a.avatar_url + '">');
-    appendToWidget(b + " .gh-widget-follow", "button", "", '<a class="gh-widget-link" target="new" href="' + a.html_url + '">Home Page</a>')
+    appendToWidget(b + " .gh-widget-follow", "button", "", '<a class="gh-widget-link" target="new" href="' + a.html_url + '">Home</a>')
 }
 function updateRepoDetails(a, b) {
     for (var c = 0; c < a.length; c++) 

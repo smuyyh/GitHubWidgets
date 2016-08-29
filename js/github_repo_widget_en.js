@@ -50,7 +50,7 @@ $(function () {
 					        <table class="issues" width="100%"></table> \
 					    </div> \
 					    <div class="github-box-download"> \
-					        <p class="updated"><a href="' + repo.url.replace('api.', '').replace('repos/', '') + '/tree/master" target="_blank"><strong>master</strong>branch</a>Latest Commit：' + pushed_at + '</p> \
+					        <p class="updated"><a href="' + repo.url.replace('api.', '').replace('repos/', '') + '/tree/master" target="_blank"><strong>master</strong>branch</a> Latest Commit：' + pushed_at + '</p> \
 					        <a class="download" href="' + repo.url.replace('api.', '').replace('repos/', '') + '/zipball/master">Download Zip</a> \
 					    </div> \
 					</div> \
