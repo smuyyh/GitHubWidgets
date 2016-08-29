@@ -20,7 +20,20 @@ Copy and paste this code in your HTML body, replacing “data-repo” with your 
 ```xml
 <script type="text/javascript" src="../js/jquery-1.7.1.min.js"></script>
 <script type="text/javascript" src="../js/github_repo_widget_en.js"></script>
-<div class="github-widget-repo" data-repo="smuyyh/SprintNBA" style="width:500px"></div>
+<div class="github-widget-repo" data-repo="smuyyh/SprintNBA" style="width:600px"></div>
+```
+or
+```xml
+<head>
+    <link type="text/css" rel="stylesheet" href="../css/github_repo_widget_2.css"/>
+</head>
+<body>
+    <div class="gitinfo" style="margin:15px 0; width:600px;"></div>
+
+    <script src="../js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript">var git_name ="/smuyyh/IncrementallyUpdate"</script>
+    <script type="text/javascript" src="../js/github_repo_widget_2_en.js"></script>
+</body>
 ```
 
 - Activity Widget
