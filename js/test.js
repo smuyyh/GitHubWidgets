@@ -1,5 +1,4 @@
-<script type="text/javascript">
-	show('<img style=" height:15px;" src="http://img.blog.csdn.net/20170122091917400" />&nbsp;加载中，请稍后');
+show('<img style=" height:15px;" src="http://img.blog.csdn.net/20170122091917400" />&nbsp;加载中，请稍后');
     get("https://raw.githubusercontent.com/racaljk/hosts/master/hosts");
 
     function show(msg) {
@@ -52,4 +51,4 @@
         }
         ajax.send();
 
-    }</script>
+    }
