@@ -1,9 +1,15 @@
 # GitHubWidgets
 GitHub html widget, include User Widget、Repo Widget and Activity Widget.
 
-![user](https://github.com/smuyyh/GitHubWidgets/blob/master/screenshot/github_user_1.png?raw=true)
-![repo](https://github.com/smuyyh/GitHubWidgets/blob/master/screenshot/github_repo_1.png?raw=true)
-![activity](https://github.com/smuyyh/GitHubWidgets/blob/master/screenshot/github_activity_1.png?raw=true)
+## Priview
+### User Widget
+<img src="https://github.com/smuyyh/GitHubWidgets/blob/master/screenshot/github_user_1.png?raw=true" width=210/>
+
+## Repo Widget
+<img src="https://github.com/smuyyh/GitHubWidgets/blob/master/screenshot/github_repo_1.png?raw=true" width=210/>
+
+## Activity Widget
+<img src="https://github.com/smuyyh/GitHubWidgets/blob/master/screenshot/github_activity_1.png?raw=true" width=210/>
 
 ## How to use
 - User Widget
@@ -68,3 +74,7 @@ Copy and paste link in your HTML head, and div/script in your HTML body, replaci
 浏览器强制检查资源的MIME。解决方法就是将js链接中的raw.githubusercontent.com换成rawgit.com。  -->
 ```
 ![csdn](https://github.com/smuyyh/GitHubWidgets/blob/master/screenshot/csdn_widget_1.png?raw=true)
+
+### 效果
+
+<img src="https://github.com/smuyyh/GitHubWidgets/blob/master/screenshot/csdn_widget_2.png?raw=true" width=210/>
