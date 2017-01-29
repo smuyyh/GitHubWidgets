@@ -6,10 +6,10 @@ GitHub html widget, include User Widget、Repo Widget and Activity Widget.
 <img src="https://github.com/smuyyh/GitHubWidgets/blob/master/screenshot/github_user_1.png?raw=true" width=210/>
 
 ## Repo Widget
-<img src="https://github.com/smuyyh/GitHubWidgets/blob/master/screenshot/github_repo_1.png?raw=true" width=210/>
+<img src="https://github.com/smuyyh/GitHubWidgets/blob/master/screenshot/github_repo_1.png?raw=true" width=380/>
 
 ## Activity Widget
-<img src="https://github.com/smuyyh/GitHubWidgets/blob/master/screenshot/github_activity_1.png?raw=true" width=210/>
+<img src="https://github.com/smuyyh/GitHubWidgets/blob/master/screenshot/github_activity_1.png?raw=true" width=380/>
 
 ## How to use
 - User Widget
