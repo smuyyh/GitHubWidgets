@@ -74,6 +74,7 @@ function updateUserDetails(a, b) {
 }
 function updateRepoDetails(a, b) {
     for (var c = 0; c < a.length; c++) 
+	    if(a[c].language)
 		appendToWidget(b + " .gh-widget-repositories", "div", "gh-widget-container", '<div class="gh-widget-item names"><div><a class="gh-widget-link" href="' + a[c].repoUrl + '">' + a[c].name + '</a></div></div><div class="gh-widget-item language"><div>' + (a[c].language ? a[c].language: "Unknown") + '</div></div><div class="gh-widget-item stars"><div>&#9733;' + a[c].stars + "</div></div>")
 }
 function topRepos(a) {
