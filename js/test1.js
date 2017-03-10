@@ -24,7 +24,7 @@ function start() {
     for (var a = document.querySelectorAll(".github-widget"), b = 0; b < a.length; b++) {
         var c = a[b];
         c.setAttribute("id", "widget" + b);
-        appendToWidget("#widget" + b, "div", "", '<div class="gh-widget-container"><div class="gh-widget-item gh-widget-photo"></div><div class="gh-widget-personal-details"></div></div><div class="gh-widget-container gh-widget-stats"></div><hr class="gh-widget-hr"><div class="gh-widget-container"><div class="gh-widget-item gh-widget-heading">Popular Repositories</div></div><div class="gh-widget-repositories"></div><div class="gh-widget-container"><div class="gh-widget-item gh-widget-follow"></div><div class="gh-widget-item gh-widget-active-time"></div></div>');
+        appendToWidget("#widget" + b, "div", "", '<div class="gh-widget-container"><div class="gh-widget-photo"></div><div class="gh-widget-personal-details"></div></div><div class="gh-widget-container gh-widget-stats"></div><hr class="gh-widget-hr"><div class="gh-widget-container"><div class="gh-widget-item gh-widget-heading">Popular Repositories</div></div><div class="gh-widget-repositories"></div><div class="gh-widget-container"><div class="gh-widget-item gh-widget-follow"></div><div class="gh-widget-item gh-widget-active-time"></div></div>');
         c = c.dataset.username;
         fetchRepos(c, "#widget" + b);
         fetchUserDetails(c, "#widget" + b)
